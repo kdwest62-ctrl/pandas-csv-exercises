@@ -18,6 +18,8 @@ while True:
         elif choice == 't':
             print(df)
             print('-' * 8)
+		else:
+			print('Invalid input')
     elif task == '2':
         print(df.head().to_string())
         print('-' * 8)
